@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BridgeLabz Task 2</title>
+
+  <style>
+    .page-heading {
+      display: flex;
+      justify-content: center;
+      font-family: 'Courgette', cursive;
+      margin: 30px 0;
+      color: #fff;
+      text-shadow: 4px 4px #333;
+      font-size: 48px;
+    }
+  </style>
+
+  <style>
+    /* fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+    /* reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      min-height: 100vh;
+      background-color: #A9A9A9;
+    }
+
+
+    /* navbar */
+    .header nav {
+      background-color: #FF80FF;
+      height: 64px;
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .header nav * {
+      display: inline-block;
+      width: auto;
+    }
+
+    .header nav a {
+      color: #333;
+      display: inline-flex;
+      justify-content: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 1.5rem;
+      font-family: 'Recursive', sans-serif;
+    }
+
+    .search {
+      display: block;
+    }
+
+    .search-text {
+      padding: 4px;
+      outline: none;
+    }
+
+    .search-button {
+      border: none;
+      color: #fff;
+      outline: none;
+      background-color: #333;
+      padding: 5px 30px;
+      cursor: pointer;
+    }
+  </style>
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+  <h1 class="page-heading">
+    Header
+  </h1>
+
+  <header class="header">
+    <nav>
+      <a href="#">
+        Home
+      </a>
+      <a href="#">
+        Our Team
+      </a>
+      <a href="#">
+        Projects
+      </a>
+      <a href="#">
+        Contact
+      </a>
+      <div class="search">
+        <input
+          class="search-text"
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search query"
+        >
+        <button class="search-button">
+          Go!
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="main">
+    <article>
+      <!-- main heading of the article -->
+      <h1 class="heading center">
+        Article heading
+      </h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere fuga ex distinctio id at, a quod doloremque facilis error velit repudiandae deserunt omnis porro aliquam incidunt adipisci, blanditiis eius ipsum itaque. Fugiat ipsam deleniti quam officiis, ad commodi minus, ea, adipisci asperiores saepe laborum suscipit excepturi praesentium eveniet ipsa eligendi.
+      </p>
+
+      <!-- subsections of the article -->
+      <h2 class="heading">
+        subsection
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque maxime officiis aut cumque nostrum, sit et pariatur molestias? At ea consectetur facilis eius nihil fugiat numquam quasi assumenda cum!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dolorem, at reprehenderit unde est, fuga obcaecati debitis omnis suscipit vitae iste possimus ut quidem facere minima tempora. Ex est cum sequi.
+      </p>
+
+      <h2 class="heading">
+        Another subsection
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur voluptatibus perspiciatis laboriosam unde illo deserunt aspernatur nostrum cupiditate ea! Qui, magnam esse possimus rem quo magni iste velit eligendi omnis perspiciatis quaerat dolorem reprehenderit perferendis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda recusandae eius vero architecto sit, dolorem facilis voluptas reprehenderit blanditiis culpa asperiores nisi quasi labore omnis voluptatibus, accusamus magnam ullam a non. Sapiente architecto atque quasi corporis aperiam laborum ducimus laudantium.
+      </p>
+    </article>
+    <aside>
+      <h1 class="heading center">
+        Related
+      </h1>
+      <ul>
+        <li>
+          <a href="#">
+            Lorem ipsum dolor sit amet.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Lorem ipsum dolor sit amet.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Lorem ipsum dolor sit amet.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Lorem ipsum dolor sit amet.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Oh well...
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </section>
+
+  <footer class="copyright">
+    &copy;Copyright 2050 by nobody. All rights reversed.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+section.main {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: solid 1px #0f0; */
+}
+
+section.main > * {
+  /* border: solid 1px #ff0; */
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+section.main article {
+  flex: 3;
+  background-color: #fff;
+  margin-left: 0;
+}
+section.main aside {
+  flex: 1;
+  background-color: #FF80FF;
+  margin-right: 0;
+}
+
+section.main .heading {
+  font-family: 'Courgette', cursive;
+  margin: 30px 0;
+}
+section.main .heading.center {
+  display: flex;
+  justify-content: center;
+}
+
+section.main h1 {
+  font-size: 40px;
+}
+section.main h2 {
+  font-size: 32px;
+}
+
+section.main p {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 10px 30px;
+  /* line-height: 2; */
+  font-size: 18px;
+}
+
+li {
+  margin-bottom: 20px;
+}
