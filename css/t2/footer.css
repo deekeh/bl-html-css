@@ -6,3 +6,8 @@ footer.copyright {
   background-color: #fff;
   padding: 25px 0 25px 25px;
 }
+@media screen and (max-width: 600px) {
+  footer.copyright {
+    width: 100%;
+  }
+}
